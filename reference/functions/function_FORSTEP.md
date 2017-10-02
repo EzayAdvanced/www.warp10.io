@@ -11,7 +11,7 @@ category: "reference"
 
 
 The `FORSTEP` function implements *for* loop with an index step. 
-It takes for arguments from the stack : the initial and the final values of the loop index,
+It takes four arguments from the stack : the initial and the final values of the loop index,
 a [macro]({{ site.baseurl}}/reference/functions/macros) step to evaluate after each iteration and an other one to be executed at each iteration.
 
 For each iteration the loop index is put on top of the stack, and the exec macro is then called.
