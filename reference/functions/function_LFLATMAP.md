@@ -11,17 +11,17 @@ The `LMAP` function applies a macro on each element of a list, producing a list 
 
 Initial stack:
 
-    [ elem1 elem2 elem3 elem 4]
+    [ elem1 elem2 elem3 elem4 ]
 
 
 WarpScript commands:
 
-    <% -1 * %> LFLATMAP
+    <% -3 * %> LFLATMAP
 
 
 Stack:
 
-    [ -elem1 -elem2 -elem3 -elem4 ]
+    [ 0 -3 -6 -9 ]
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
