@@ -9,7 +9,7 @@ oldPath: ["20-frameworks","201-framework-map","251-mapper_rate.html.md"]
 category: "reference"
 ---
  
-This *mapper* function computes the rate of change between the first and last values (`rate = (last - first) / (lasttick - firsttick)`) of each sliding window. The measurement unit of timestamps (firsttick and lasttick) is the second. The location and elevation returned are those associated with the most recent value in the sliding window.
+This *mapper* function computes the rate of change between the first and last values (`rate = (last - first) / (lasttick - firsttick)`) of each sliding window. The location and elevation returned are those associated with the most recent value in the sliding window.
 
 The `mapper.rate` function can only be applied to values of type **LONG** or **DOUBLE**, when applied to **STRING** or **BOOLEAN** it does not return any value. If the sliding window contains less than 2 values, the rate of change will be 0.0.
 
